@@ -1,0 +1,50 @@
+html,body{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    flex: 1 20%;
+    background-color: darkslategray;
+    color: white;
+       
+}
+.section{
+    display: flex;
+    flex: 1; 
+    flex-direction: row;  
+    background-color: skyblue;   
+}
+.navigation{
+    flex: 1 18%;
+    display: flex;
+  
+}
+ul{
+    list-style-type: none;
+}
+ul li{
+    margin: 42.3px;
+    border: 1px solid black;
+    border-radius: 5px;  
+}
+li:hover{
+    background-color: black;
+    color: white;
+}
+.content{
+    flex: 1 82%;
+    display: flex;
+    justify-content: center;
+}
+.content ul li a{
+    text-decoration: none;
+}
+
+

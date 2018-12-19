@@ -1,0 +1,107 @@
+<html>
+	<head>
+		<title>layout</title>
+		<style>
+			.header{
+			width:100%;
+			height:200px;
+			background-color:blue;
+			color:white;
+			}
+			.logo{
+			float:left;
+			width:50%;
+			
+			}
+			.form{
+			float:right;
+			width:50%;
+			padding-top:40px;
+			
+			}
+			.border-example{ 
+			background-color:yellow;
+			border:1px solid red;
+			border-radius:50px;
+			height:50%;
+			}
+			.border-example2{
+			color:blue;
+			background-color:black;
+			border:2px dashed gray;
+			border-radius:20px;
+			height:30%;
+			padding:200px;
+
+			}
+			.relative-example{
+			position:relative;
+			width:200px;
+			height:200px;
+			bottom:70px;
+			top:30px;
+			left:600px;
+			}
+			.fixed-example{
+			position:fixed;
+			width:100px;
+			height:200px;
+			bottom:10px;
+			right:20px;
+			background-color:red;
+			
+			}
+			
+		</style>
+	</head>
+	
+	<body>
+		<div class="container">
+			<div class="header" >
+				<div class="logo">
+					<img src="images/images-2.PNG" />
+				</div>
+				<!--ends logo div-->
+				<div class="form">
+					<label>Email or Phone<label>
+					<input type="text" />
+					<label>Password<label>
+					<input type="text" />
+					<input type="submit" value="Log In" />
+				</div>
+				<!--ends form div-->
+			</div>
+			<!--ends header div-->
+			<div class="border-example">
+			
+			</div>
+			<!--ends border-eaxample div-->
+			<div class="border-example2">
+				working or not
+			</div>
+			<!--ends border example2-->
+			
+			<div class="relative-example">
+				how are you??
+					<div class="absolute-example">
+						hello
+					</div>
+					<div class="inherit example">
+						morning
+					</div>
+			</div>
+			<!--ends relative and absolute example div-->
+			<div class="fixed-example">
+			this is a fixed example
+			 
+			</div>
+			<!--ends fixed-example div-->
+>
+			
+			
+		</div>
+		<!--ends container div-->
+	
+	</body>
+	
+</html>

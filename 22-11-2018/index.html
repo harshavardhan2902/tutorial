@@ -1,0 +1,80 @@
+<html>
+	<head>
+		<title>Css Basics</title>
+		<style>
+			.test{
+				width:100%;
+				height:200px;
+				background-color:green;
+				color:red;
+				overflow:auto;
+				
+				
+			}
+			.heading-center{
+				text-align:center;
+				text-transform:uppercase;
+			}
+			.heading-right{
+				text-align:right;
+				text-transform:lowercase;
+			}
+			.underline-text{
+				text-decoration:underline;
+				text-transform:capitalize;
+				text-indent:100px;
+			}
+			.overline-text{
+				text-decoration:overline;
+				text-transform:capitalize;
+			}
+			.paragraph-text{
+				text-align:left;
+				text-decoration:linethrough;
+				text-transform:capitalize;
+			}
+			.bold-text{
+				text-transform:lowercase
+			}
+			.parent{
+				width:100%;
+			}
+			.child1{
+				float:left;
+				width:50%;
+			}
+			.child2{
+				float:right;
+				width:50%
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="test">
+				<h1 class="heading-center">This is center text</h1>
+				<h1 class="heading-right">This is right text</h1>
+				<h1 class="underline-text">hello world</h1>
+				<h1 class="overline-text">hi  how are you</h1>
+				<p class="paragraph-text">hi this is harsha how are you? felling good</P>
+				<b class="bold-text">This is bold</b>
+			</div>
+			<!--ends test div-->
+			<div class="parent">
+				<div class="child1">
+				<h1>This is first div</h1>
+				</div>
+				<!--ends child1 div-->
+				<div class="child2">
+				<h1>This is second div</h1>
+				</div>
+				<!--ends child2 div-->
+			</div>
+			<!--ends parent div-->
+		</div>
+	<!--ends container div-->
+	</body>
+	
+
+
+</html>

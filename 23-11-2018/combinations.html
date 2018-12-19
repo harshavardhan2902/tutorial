@@ -1,0 +1,70 @@
+<html>
+
+<head>
+	<title>practising combinations</title>
+		<style>
+		.header, .section{
+		background-color:blue;
+		color:white;
+		text-align:center;
+		text-transform:capitalize;
+		}
+		.header1 h1{
+		color:red;
+		}
+		.header2>h1{
+		color:green;
+		}
+		.header3 +h1{
+		color:yellow;
+		}
+		.header4 ~h1{
+		color:green;
+		}
+		
+		</style>
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<h1>this is header</h1>
+		</div>
+		<!--ends header div-->
+		<div class="section">
+			<h1>this is section</h1>
+		</div>
+		<!--ends section div-->
+		
+		<div class="header1">
+			<h1>this is first heading</h1>
+				<div class="header1-child">
+					<h1>this is second heading</h1>			
+				</div>
+		</div>
+		<!--ends descendent example-->
+		<div class="header2">
+			<h1>this is first heading</h1>
+				<div class="header2-child">
+					<h1>this is second heading</h1>			
+				</div>
+		</div>
+		<!--ends child combinator example-->
+		<div class="header3">
+			<h1>welcome text</h1>
+		
+		</div>
+			<h1>Welcome text1</h1>
+			<h1>Welcome text2</h1>
+		<!--ends adjacent combinator example-->
+		<div class="header4">
+			<h1>hello text</h1>
+		
+		</div>
+			<h1>hello</h1>
+			<h1>hello text2</h1>
+			<h1>hello text3</h1>
+	
+	</div>
+</body>
+
+</html>
